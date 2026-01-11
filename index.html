@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concrete Trinket Trays | Handmade Home Décor</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f7f6f4;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .hero {
+      height: 90vh;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+      url('https://images.unsplash.com/photo-1616627988511-9b40a1dc6c48');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      font-weight: 600;
+    }
+
+    .hero p {
+      margin: 15px 0;
+      font-size: 16px;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      background: #d6cfc4;
+      color: #333;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #c3b8a8;
+    }
+
+    section {
+      padding: 80px 60px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h3 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .product-card div {
+      padding: 20px;
+    }
+
+    .product-card h4 {
+      font-size: 16px;
+    }
+
+    .product-card p {
+      font-size: 13px;
+      color: #666;
+      margin: 10px 0;
+    }
+
+    .why {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+
+    .why div {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    footer {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+
+    @media(max-width: 768px) {
+      header {
+        padding: 20px;
+      }
+      section {
+        padding: 60px 20px;
+      }
+      .hero h2 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Concrete Trays</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section class="hero" id="home">
+  <div>
+    <h2>Minimal Concrete. Timeless Beauty.</h2>
+    <p>Handcrafted trinket trays designed for modern homes & gifting</p>
+    <a href="#products" class="btn">Explore Collection</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-title">
+    <h3>Our Story</h3>
+  </div>
+  <p>
+    Each of our concrete trinket trays is handmade with love and precision.
+    Designed to be minimal yet elegant, our pieces add a subtle luxury to your
+    space. Durable, unique, and crafted to perfection — no two trays are exactly alike.
+  </p>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-title">
+    <h3>Our Collection</h3>
+  </div>
+
+  <div class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1616627988743-02db4d8b35ef">
+      <div>
+        <h4>Round Concrete Tray</h4>
+        <p>Perfect for rings, candles & décor | ₹499</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108">
+      <div>
+        <h4>Oval Trinket Tray</h4>
+        <p>Elegant & modern | ₹599</p>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1598300053650-d42fdd2c1d9a">
+      <div>
+        <h4>Custom Gift Tray</h4>
+        <p>Personalized for gifting | ₹799</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <div class="section-title">
+    <h3>Why Choose Us</h3>
+  </div>
+
+  <div class="why">
+    <div>✨ Handmade with Care</div>
+    <div>🪨 Premium Concrete Quality</div>
+    <div>🎁 Customizable Designs</div>
+    <div>💝 Perfect for Gifting</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-title">
+    <h3>Get in Touch</h3>
+  </div>
+
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">Order via WhatsApp</a>
+  <a class="btn" href="https://instagram.com/yourpage">Instagram</a>
+</section>
+
+<footer>
+  © 2026 Handmade Concrete Trinket Trays | All Rights Reserved
+</footer>
+
+</body>
+</html>
